@@ -2,11 +2,14 @@ version: '3'
 
 services:
     jupyter-notebook:
-        build: ./
+        image: jupyter/datascience-notebook:dc9744740e12
         volumes:
             - ${JUPYTER_DIR}:/home/jovyan/work
+            - ./startup:/usr/local/bin/before-notebook.d
         ports:
             - "8888:8888"
         environment:
             - JUPYTER_ENABLE_LAB=1
+            - GRANT_SUDO=1
         command: "start-notebook.sh --NotebookApp.token=''"
+        tty: true

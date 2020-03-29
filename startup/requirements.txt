@@ -1,0 +1,12 @@
+tensorflow
+keras
+imbalanced-learn
+scikit-multiflow
+ipympl
+palettable
+mlxtend
+attrs
+jupytext
+papermill
+nteract-scrapbook
+when-changed
