@@ -14,3 +14,5 @@ function installExtensionIfDontExist() {
 
 installExtensionIfDontExist "@jupyter-widgets/jupyterlab-manager"
 installExtensionIfDontExist "jupyter-matplotlib"
+installExtensionIfDontExist "jupyterlab-jupytext"
+
