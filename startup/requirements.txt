@@ -10,3 +10,4 @@ jupytext
 papermill
 nteract-scrapbook
 when-changed
+deap
