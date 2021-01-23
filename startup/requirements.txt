@@ -11,3 +11,7 @@ papermill
 nteract-scrapbook
 when-changed
 deap
+dask
+imblearn
+networkx
+
