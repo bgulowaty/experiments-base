@@ -2,10 +2,9 @@ version: '3'
 
 services:
     jupyter-notebook:
-        image: jupyter/datascience-notebook:dc9744740e12
+        image: bg/jupyter-experiment-env:latest
         volumes:
             - ${JUPYTER_DIR}:/home/jovyan/work
-            - ./startup:/usr/local/bin/before-notebook.d
         ports:
             - "8888:8888"
         environment:

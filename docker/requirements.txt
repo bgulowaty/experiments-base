@@ -8,7 +8,7 @@ mlxtend
 attrs
 jupytext
 papermill
-nteract-scrapbook
+scrapbook
 when-changed
 deap
 dask
